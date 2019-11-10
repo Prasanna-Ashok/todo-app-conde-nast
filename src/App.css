@@ -1,0 +1,54 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.nav-title{
+  height: 10vh;
+  background: #f1f1f1;
+}
+.nav-text{
+  padding-left: 70px;  
+  font-size: 30px;
+  font-weight: bold;
+}
+
+/* Flex Box */
+
+.todo{
+  display: flex;
+  flex-flow: row wrap;
+  font-size: 14px;
+  margin-top: 20px;
+}
+.todo-individual{
+  margin: 25px;
+}
+.todo-tasks{
+  border:1px solid #f1f1f1;
+  box-shadow: 0px 0px 15px 8px #eeeeee;
+  margin: 10px 0 20px 0;
+  border-radius: 10px;
+  padding: 10px;
+  width: 250px;
+  text-align: justify;
+}
+.todo-title{
+  padding: 5px;
+  font-weight: bold;
+  text-align: center;
+}
+.todo-description{
+  background:#c6e2ff;
+  border-radius: 8px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+/* New user */
+
+.todo-add{
+  cursor: pointer;
+  margin-top: 20px;
+}
+
