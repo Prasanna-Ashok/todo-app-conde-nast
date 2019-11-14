@@ -32,6 +32,7 @@
   padding: 10px;
   width: 250px;
   text-align: justify;
+  word-wrap: break-word;
 }
 .todo-title{
   padding: 5px;

@@ -40,7 +40,7 @@ const SimplePieChart = () => {
     <PieChart width={800} height={400}>
       <Pie
         dataKey="count"
-        data={cards}
+        data={tasks}
         cx={600}
         cy={200}
         labelLine={false}
